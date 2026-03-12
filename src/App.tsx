@@ -1,5 +1,6 @@
 import { Toaster } from "react-hot-toast";
 import { Link } from "react-router-dom";
+import StudentTable from "./lab2";
 
 function App() {
   return (
@@ -34,9 +35,13 @@ function App() {
       </nav>
 
       {/* MAIN CONTENT */}
-      <div className="max-w-6xl mx-auto mt-10 px-4 text-center">
-        <h1 className="text-4xl font-bold mb-4">Chào mừng đến với WEB2091</h1>
-      </div>
+   
+<div className="max-w-6xl mx-auto p-6">
+  <h1 className="text-2xl font-bold mb-4">Danh sách sinh viên</h1>
+  <StudentTable />
+</div>
+
+      
 
       <Toaster />
     </>
