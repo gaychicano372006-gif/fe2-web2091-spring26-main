@@ -1,6 +1,6 @@
 import { Form, Input, Button, InputNumber, Card } from "antd";
 
-const Lab3 = () => {
+const lab3 = () => {
 
   // LOGIN
   const onLogin = (values: any) => {
@@ -173,4 +173,4 @@ const Lab3 = () => {
   );
 };
 
-export default Lab3;
+export default lab3;
